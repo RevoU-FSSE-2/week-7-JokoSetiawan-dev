@@ -1,0 +1,19 @@
+{
+  "name": "week-7-jokosetiawan-dev",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/jmQFTmFT)",
+  "main": "script.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node .",
+    "start:dev": "ts-node script.ts",
+    "run": "node script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
