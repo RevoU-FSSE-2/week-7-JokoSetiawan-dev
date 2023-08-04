@@ -10,34 +10,39 @@
     <div class="banner">Financial Tracker</div>
 
     <form>
-      <div>
-        <label>Type</label>
-        <select id="type">
-          <option value="cash in">Cash In</option>
-          <option value="cash out">Cash Out</option>
-        </select>
+      <div class="finance-form">
+
+        <div>
+          <label>Type</label>
+          <select id="type">
+            <option value="cash in">Cash In</option>
+            <option value="cash out">Cash Out</option>
+          </select>
+        </div>
+  
+        <div>
+          <label>Name</label>
+          <input type="text" id="name" />
+        </div>
+  
+        <div>
+          <label>Details</label>
+          <input type="text" id="detail" />
+        </div>
+  
+        <div>
+          <label>Ammount</label>
+          <input type="number" id="amount" />
+        </div>
+  
+        <button type="submit" class="submit-btn">Add</button>
+
       </div>
 
-      <div>
-        <label>Name</label>
-        <input type="text" id="name" />
+      <div id="cash-result">
       </div>
-
-      <div>
-        <label>Details</label>
-        <input type="text" id="details" />
-      </div>
-
-      <div>
-        <label>Ammount</label>
-        <input type="number" id="amount" />
-      </div>
-
-      <button>Add</button>
-
-      <div class="cashin-result"></div>
-
-      <div class="cashout-result"></div>
     </form>
+
+    <script src="./script.js"></script>
   </body>
 </html>
