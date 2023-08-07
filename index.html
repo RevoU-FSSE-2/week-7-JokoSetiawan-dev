@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Bank of Z</title>
+  </head>
+  <body>
+
+    <div class="logo">
+      <img src="./images/logo-01-01.webp" alt="bank logo">
+    </div>
+
+    <div class="heading">
+      <h1>Finance Tracker</h1>
+    </div>
+
+    <div class="container">
+      <form action="#" id="finance-form">
+        <div>
+          <label>Type</label>
+          <select class="input-box" id="type">
+            <option value="cash in">Cash In</option>
+            <option value="cash out">Cash Out</option>
+          </select>
+        </div>
+
+        <div>
+          <label>Name</label>
+          <input type="text" class="input-box" id="name" />
+        </div>
+
+        <div>
+          <label>Details</label>
+          <input type="text" class="input-box" id="detail" />
+        </div>
+
+        <div>
+          <label>Ammount</label>
+          <input type="number" class="input-box" id="amount" />
+        </div>
+
+        <button type="submit" class="submit-btn">Add</button>
+
+      </form>
+
+      <div>
+        <img
+          src="https://keystonemediahq.com/wp-content/uploads/2023/05/finance-animation-explained-keystone-media-videos-for-financial-advisors-financial-services-07-1024x683.jpg"
+          alt="finance animation"
+        />
+      </div>
+    </div>
+
+    <div class="cash">
+      <ul id="cash-result"></ul>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
