@@ -6,4 +6,4 @@ My name is Joko Setiawan, and I am a student of Full Stack Software Engineering 
 
 # Demo
 
-[Bank of Z Fintrack](https://bankofz-fintrack.netlify.app/)
+[Bank of Z Fintrack](https://zbank-fintrack.netlify.app/)

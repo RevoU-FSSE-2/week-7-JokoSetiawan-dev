@@ -12,6 +12,11 @@ body {
   font-family: poppins, sans-serif;
 }
 
+.required::after{
+  content: " *";
+  color: red;
+}
+
 .container {
   display: flex;
   flex-direction: column-reverse;
